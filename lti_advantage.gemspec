@@ -39,4 +39,9 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+
+  spec.add_dependency "lti_core"
+  spec.add_dependency "lti_dl"
+  spec.add_dependency "lti_nrps"
+  spec.add_dependency "lti_ags"
 end
